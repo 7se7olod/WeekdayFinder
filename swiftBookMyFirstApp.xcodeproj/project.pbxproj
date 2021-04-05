@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		2D8B77FE26170381005B9B0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D8B77FC26170381005B9B0B /* Main.storyboard */; };
 		2D8B780026170383005B9B0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D8B77FF26170383005B9B0B /* Assets.xcassets */; };
 		2D8B780326170383005B9B0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D8B780126170383005B9B0B /* LaunchScreen.storyboard */; };
+		2D8B781626170A99005B9B0B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D8B781526170A99005B9B0B /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2D8B77FF26170383005B9B0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D8B780226170383005B9B0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D8B780426170383005B9B0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D8B781526170A99005B9B0B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D8B781626170A99005B9B0B /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				2D8B77F526170381005B9B0B /* swiftBookMyFirstApp */,
 				2D8B77F426170381005B9B0B /* Products */,
+				2D8B781426170A99005B9B0B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				2D8B780426170383005B9B0B /* Info.plist */,
 			);
 			path = swiftBookMyFirstApp;
+			sourceTree = "<group>";
+		};
+		2D8B781426170A99005B9B0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D8B781526170A99005B9B0B /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,7 +114,7 @@
 				};
 			};
 			buildConfigurationList = 2D8B77EE26170381005B9B0B /* Build configuration list for PBXProject "swiftBookMyFirstApp" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -289,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 974DWU28RL;
 				INFOPLIST_FILE = swiftBookMyFirstApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +309,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "-se7olod.swiftBookMyFirstApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 974DWU28RL;
 				INFOPLIST_FILE = swiftBookMyFirstApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +329,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "-se7olod.swiftBookMyFirstApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
