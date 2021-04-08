@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2D8B77F326170381005B9B0B /* swiftBookMyFirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftBookMyFirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D8B77F326170381005B9B0B /* WeekdayFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeekdayFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D8B77F626170381005B9B0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D8B77F826170381005B9B0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2D8B77FA26170381005B9B0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		2D8B77F426170381005B9B0B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2D8B77F326170381005B9B0B /* swiftBookMyFirstApp.app */,
+				2D8B77F326170381005B9B0B /* WeekdayFinder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2D8B77F226170381005B9B0B /* swiftBookMyFirstApp */ = {
+		2D8B77F226170381005B9B0B /* WeekdayFinder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D8B780726170383005B9B0B /* Build configuration list for PBXNativeTarget "swiftBookMyFirstApp" */;
+			buildConfigurationList = 2D8B780726170383005B9B0B /* Build configuration list for PBXNativeTarget "WeekdayFinder" */;
 			buildPhases = (
 				2D8B77EF26170381005B9B0B /* Sources */,
 				2D8B77F026170381005B9B0B /* Frameworks */,
@@ -94,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = swiftBookMyFirstApp;
+			name = WeekdayFinder;
 			productName = swiftBookMyFirstApp;
-			productReference = 2D8B77F326170381005B9B0B /* swiftBookMyFirstApp.app */;
+			productReference = 2D8B77F326170381005B9B0B /* WeekdayFinder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2D8B77EE26170381005B9B0B /* Build configuration list for PBXProject "swiftBookMyFirstApp" */;
+			buildConfigurationList = 2D8B77EE26170381005B9B0B /* Build configuration list for PBXProject "WeekdayFinder" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -126,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2D8B77F226170381005B9B0B /* swiftBookMyFirstApp */,
+				2D8B77F226170381005B9B0B /* WeekdayFinder */,
 			);
 		};
 /* End PBXProject section */
@@ -336,7 +336,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8B77EE26170381005B9B0B /* Build configuration list for PBXProject "swiftBookMyFirstApp" */ = {
+		2D8B77EE26170381005B9B0B /* Build configuration list for PBXProject "WeekdayFinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D8B780526170383005B9B0B /* Debug */,
@@ -345,7 +345,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8B780726170383005B9B0B /* Build configuration list for PBXNativeTarget "swiftBookMyFirstApp" */ = {
+		2D8B780726170383005B9B0B /* Build configuration list for PBXNativeTarget "WeekdayFinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D8B780826170383005B9B0B /* Debug */,
